@@ -183,7 +183,27 @@ class UltraDB:
             "messages": {"role": role, "content": content, "sources": sources or []}
         })
     
-    # ============ Init ============
+    async def delete_table(self, table: str):
+        """Delete a table."""
+        return await self.query(f"REMOVE TABLE {table}")
+    
+    async def delete_all(self):
+        """Delete all data (keep tables)."""
+        await self.query("DELETE FROM chunk")
+        await self.query("DELETE FROM entity")
+        await self.query("DELETE FROM relation")
+        await self.query("DELETE FROM document")
+        await self.query("DELETE FROM chat")
+        return "All records deleted"
+    
+    async def drop_all(self):
+        """Drop all tables (danger!)."""
+        await self.query("REMOVE TABLE chunk")
+        await self.query("REMOVE TABLE entity")
+        await self.query("REMOVE TABLE relation")
+        await self.query("REMOVE TABLE document")
+        await self.query("REMOVE TABLE chat")
+        return "All tables dropped"
     
     async def init_all(self):
         """Initialize all tables."""
