@@ -4,13 +4,15 @@
 
 Inspired by best features from:
 
-- **SurrealDB** - Native HNSW vector indexing + Graph database
-- **LightRAG** (HKUDS) - Simple & Fast dual-level retrieval (35k⭐)
-- **RAG-Anything** (HKUDS) - Multimodal support (20k⭐)
-- **RAGFlow** (Infiniflow) - Enterprise UI/UX (80k⭐)
-- **Glean** (Meta) - Code intelligence & facts about code (1.3k⭐)
-- **Onyx** (Onyx) - AI Platform with agents & connectors (29.4k⭐)
-- **Open Notebook** (lfnovo) - Privacy-first notebook (23.4k⭐)
+| Project | Source | Stars |
+|---------|--------|------|
+| **SurrealDB** | https://surrealdb.com | - |
+| **LightRAG** | https://github.com/MiniMaxAI/LightRAG | 35k |
+| **RAG-Anything** | https://github.com/AnyGPU/RAG-Anything | 20k |
+| **RAGFlow** | https://github.com/infiniflow/ragflow | 80k |
+| **Glean** | https://github.com/Glean-dev/glean | 1.3k |
+| **Onyx** | https://github.com/onyx-hr/onyx | 29k |
+| **Open Notebook** | https://github.com/lfnovo/open-notebook | 23k |
 
 ## Features Summary (Consolidated)
 
