@@ -1,5 +1,6 @@
 """
-SurrealDB Client - Embedded or HTTP (No server needed)
+SurrealDB Client - Embedded or HTTP
+Docs: https://surrealdb.com/docs/build/embedding/by-language/python
 """
 
 import os
